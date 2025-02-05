@@ -19,6 +19,5 @@ int main() {
         }
     }
     printf("%d",a*b);
-    // a=max no
     return 0;
 }
