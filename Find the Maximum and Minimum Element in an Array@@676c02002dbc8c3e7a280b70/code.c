@@ -6,8 +6,7 @@ int main() {
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int a=arr[0];
-    int b=arr[0];
+    int a=arr[0],b=arr[0];
     for(int i=1;i<=n-1;i++){
         if(b<arr[i]){
             b=arr[i];
