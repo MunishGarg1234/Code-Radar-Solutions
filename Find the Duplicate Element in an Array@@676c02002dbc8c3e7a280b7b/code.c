@@ -9,6 +9,7 @@ int main() {
     for(int i=0;i<=n-2;i++){
         if(arr[i]=arr[i+1]){
             printf("%d",arr[i]);
+            break;
         }
     }
     return 0;
