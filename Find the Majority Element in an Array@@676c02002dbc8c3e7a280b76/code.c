@@ -9,7 +9,7 @@ int main() {
     }
     int count;
     for(int i=0;i<=n-1;i++){
-        count=0;
+        count=1;
         if(arr[i]==-2){
             continue;
         }
