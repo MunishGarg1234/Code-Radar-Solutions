@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
     int n;
-    float target=n/2.0;
     scanf("%d",&n);
+    float target=n/2.0;
     int arr[n];
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
