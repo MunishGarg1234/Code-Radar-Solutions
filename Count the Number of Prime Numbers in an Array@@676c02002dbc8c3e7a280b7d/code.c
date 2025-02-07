@@ -10,14 +10,16 @@ int main() {
     for(int i=0;i<=n-1;i++){
         x=0;
         a=arr[i];
-        for(int j=2;j<=a-1;j++){
-            if(a%j==0){
-                x=1;
-                break;
+        if(a>1){
+            for(int j=2;j<=a-1;j++){
+                if(a%j==0){
+                    x=1;
+                    break;
+                }
             }
-        }
-        if(x==0){
-            count=count+1;
+            if(x==0){
+                count=count+1;
+            }
         }
     }
     printf("%d",count);
