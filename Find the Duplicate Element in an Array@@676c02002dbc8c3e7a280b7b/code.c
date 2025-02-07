@@ -11,6 +11,7 @@ int main() {
             if(arr[i]==arr[j] && i!=j){
                 printf("%d",arr[j]);
                 break;
+                break;
             }
         }
     }
