@@ -19,7 +19,7 @@ int main() {
     //         maxcount=count;
     //         maxelement=arr[i];
     //     }
-    // }
+    }
     // printf("%d",maxelement);
     return 0;
 }
