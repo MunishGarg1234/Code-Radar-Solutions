@@ -18,6 +18,11 @@ int main() {
             b=arr[j];
         }
     }
-    printf("%d",b);
+    if(a==b){
+        printf("-1");
+    }
+    else{
+        printf("%d",b);
+    }
     return 0;
 }
