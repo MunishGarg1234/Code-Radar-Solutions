@@ -15,11 +15,11 @@ int main() {
                 count++;
             }
         }
-        // if(count >maxcount){
-        //     maxcount=count;
-        //     maxelement=arr[i];
-        // }
+        if(count >maxcount){
+            maxcount=count;
+            maxelement=arr[i];
+        }
     }
-    // printf("%d",maxelement);
+    printf("%d",maxelement);
     return 0;
 }
