@@ -7,7 +7,7 @@ int main() {
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int count,maxcount=0;
+    int count,maxcount=0,maxelement;
     for(int i=0;i<=n-1;i++){
         count=1;
         for(int j=i+1;j<=n-1;j++){
