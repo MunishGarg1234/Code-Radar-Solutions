@@ -13,7 +13,7 @@ int main() {
             a=arr[i];
         }
     }
-    int b=arr[0];
+    int b=-100;
     for(int i=1;i<=n-1;i++){
         if(b>arr[i] && arr[i]!=a){
             b=arr[i];
