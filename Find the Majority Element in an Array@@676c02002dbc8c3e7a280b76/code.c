@@ -20,9 +20,11 @@ int main() {
         }
         if(count >target){
             printf("%d",arr[i]);
+            break;
         }
         else{
-            printf("-1");
+            printf("-2");
+            break;
         }
     }
     return 0;
