@@ -15,11 +15,11 @@ int main() {
                 x=1;
             }
         }
-    }if(x==0){
-        printf("-1");
+    }if(x==1){
+        printf("%d",a);
     }
     else{
-        printf("%d",a);
+        printf("-1");
     } 
     return 0;
 }
