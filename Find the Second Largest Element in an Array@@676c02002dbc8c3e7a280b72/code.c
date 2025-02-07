@@ -11,7 +11,7 @@ int main() {
             a=arr[i];
         }
     }
-    for(int j=0;j<=n-1;j++){
+    for(int j=1;j<=n-1;j++){
         if(b<arr[j] && arr[j]!=a){
             b=arr[j];
         }
