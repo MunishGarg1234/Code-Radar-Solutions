@@ -22,7 +22,7 @@ int main() {
             printf("%d",arr[i]);
         }
         else{
-            printf("-2");
+            printf("-1");
         }
     }
     return 0;
