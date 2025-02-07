@@ -18,5 +18,6 @@ int main() {
             b=arr[j];
         }
     }
+    printf("%d",b);
     return 0;
 }
