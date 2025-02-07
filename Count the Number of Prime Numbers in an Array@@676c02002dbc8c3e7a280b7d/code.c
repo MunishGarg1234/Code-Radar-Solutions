@@ -13,7 +13,7 @@ int main() {
             if(a%j==0){
                 count=0;
                 x=1;
-                break
+                break;
             }
         }
         if(x=0){
