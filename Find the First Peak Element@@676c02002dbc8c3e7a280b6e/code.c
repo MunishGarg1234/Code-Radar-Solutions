@@ -2,13 +2,12 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int arr[n+1];
+    int arr[n];
     int m;
-    for(int i=0;i<=n;i++){
-        scanf("%d",&m);
-        arr[i]=m;
+    for(int i=0;i<=n-1;i++){
+        scanf("%d",&arr[i]);
     }
-    for(int j=0;j<=n;j++){
+    for(int j=0;j<=n-1;j++){
         if(j==0){
             if(arr[0]>arr[1]){
                 printf("%d",arr[0]);
