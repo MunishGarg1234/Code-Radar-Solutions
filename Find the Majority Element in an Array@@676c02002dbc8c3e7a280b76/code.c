@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    int n,target=n/2;
+    int n;
+    float target=n/2.0;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<=n-1;i++){
