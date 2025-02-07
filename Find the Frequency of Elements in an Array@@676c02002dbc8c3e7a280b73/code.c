@@ -7,19 +7,16 @@ int main() {
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    for (int i = 0; i < n; i++) {
-        int count = 1;
-        if (arr[i] == -1) // Skip if already counted
-            continue;
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] == arr[j]) {
+    int count;
+    for(int i=0;i<=n-1;i++){
+        count=0;
+        for(int j=i+1;j<=n-1;j++){
+            if(arr[i]==arr[j]){
                 count++;
-                arr[j] = -1; // Mark as counted
             }
         }
-        printf("%d  %d", arr[i], count);
+        printf("%d %d",arr[i],count);
         printf("\n");
     }
-
     return 0;
 }
