@@ -19,7 +19,7 @@ int main() {
                 arr[i]=0;
             }
         }
-        printf("%d  %d",arr[i],count);
+        printf("%d %d",arr[i],count);
         printf("\n");
     }
     return 0;
