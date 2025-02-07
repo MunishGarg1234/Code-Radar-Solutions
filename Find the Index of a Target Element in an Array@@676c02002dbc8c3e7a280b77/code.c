@@ -9,8 +9,8 @@ int main() {
     int target;
     scanf("%d",&target);
     for(int j=0;j<=n-1;j++){
-        if(arr[i]==target){
-            printf("%d",i);
+        if(arr[j]==target){
+            printf("%d",j);
         }
     }
     return 0;
