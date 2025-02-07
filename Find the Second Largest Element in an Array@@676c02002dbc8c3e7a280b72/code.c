@@ -2,6 +2,7 @@
 int main() {
     int n;
     scanf("%d",&n);
+    int x=0;
     int arr[n];
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
@@ -17,6 +18,5 @@ int main() {
             b=arr[j];
         }
     }
-    printf("%d",b);
     return 0;
 }
