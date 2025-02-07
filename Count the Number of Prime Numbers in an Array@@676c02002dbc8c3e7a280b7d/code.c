@@ -16,7 +16,7 @@ int main() {
                 break;
             }
         }
-        if(x=0){
+        if(x==0){
             count=count+1;
         }
     }
