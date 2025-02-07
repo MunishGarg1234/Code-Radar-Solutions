@@ -18,7 +18,7 @@ int main() {
             b=arr[j];
         }
     }
-    if(a==b){
+    if(b==-100){
         printf("-1");
     }
     else{
