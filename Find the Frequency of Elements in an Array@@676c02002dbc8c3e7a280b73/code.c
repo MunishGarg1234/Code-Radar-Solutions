@@ -6,15 +6,17 @@ int main() {
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int count=0;
+    int a,count=0;
     for(int i=0;i<=n-1;i++){
         count=0;
         for(int j=0;j<=n-1;j++){
             if(arr[i]==arr[j] && i!=j){
+                a=arr[i];
                 count++;
-                printf("%d ",count);
             }
         }
+        printf("%d %d",a,count);
+        printf("\n");
     }
     return 0;
 }
