@@ -7,13 +7,13 @@ int main() {
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int a=arr[0],b=arr[0];
+    int a=arr[0],b=-100;
     for(int i=1;i<=n-1;i++){
         if(a<arr[i]){
             a=arr[i];
         }
     }
-    for(int j=1;j<=n-1;j++){
+    for(int j=0;j<=n-1;j++){
         if(b<arr[j] && arr[j]!=a){
             b=arr[j];
         }
