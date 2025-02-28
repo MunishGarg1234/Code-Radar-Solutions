@@ -13,6 +13,9 @@ int main(){
             arr[k]=arr[i];
             k+=1;
         }
+        if(k>=n){
+            break;
+        }
         else{
             arr[k]=arr[i];
         }
