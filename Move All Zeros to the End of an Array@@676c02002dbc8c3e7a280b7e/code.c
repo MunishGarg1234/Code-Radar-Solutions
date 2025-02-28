@@ -7,14 +7,14 @@ int main(){
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int a=n-1;
+    int k=0;
     for(int i=0;i<=n-1;i++){
         if(arr[i]!=0){
-            arr[n-a-1]=arr[i];
+            arr[k]=arr[i];
+            k+=1;
         }
         else{
-            arr[a]=arr[i];
-            a-=1;
+            arr[n-k-1]=arr[i];
         }
     }
     for(int j=0;j<=n-1;j++){
