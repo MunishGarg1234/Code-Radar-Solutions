@@ -15,5 +15,8 @@ int main(){
         }
         arr[i]=arr[i+k];
     }
+    for(int i=0;i<=n-1;i++){
+        printf("%d",arr[i]);
+    }
     return 0;
 }
