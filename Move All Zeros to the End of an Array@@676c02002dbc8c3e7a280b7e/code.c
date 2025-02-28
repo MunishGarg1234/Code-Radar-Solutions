@@ -15,7 +15,7 @@ int main(){
         }
         else{
             arr[a]=arr[i];
-            a-=;
+            a-=1;
         }
     }
     for(int j=0;j<=n-1;j++){
