@@ -1,6 +1,6 @@
 // Your code here...
-int x=1;
 int isPrime(int y){
+    int x=1;
     for(int i=2;i<y;i++){
         if(y%i==0){
             x=0;
