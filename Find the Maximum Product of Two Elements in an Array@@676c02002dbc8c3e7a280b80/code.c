@@ -11,7 +11,7 @@ int main() {
         for(int j=0;j<=n-1;j++){
             if(i!=j){
                 if(arr[i]*arr[j]>b){
-                    b=arr[0]*arr[j];
+                    b=arr[i]*arr[j];
                 }
             }
         }
