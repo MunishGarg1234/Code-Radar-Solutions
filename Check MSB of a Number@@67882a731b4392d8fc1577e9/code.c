@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    long a;
+    long long a;
     scanf("%d",&a);
     if(a%2!=0){
         printf("Set");
