@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    unsigned long long a;
-    scanf("%llu",&a);
-    if(a%2==0){
-        printf("Not Set");
+    long long int a;
+    scanf("%lld",&a);
+    if(a%2==1){
+        printf("Set");
     }
     else{
-        printf("Set");
+        printf("Not Set");
     }
     return 0;
 }
