@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    long long int a;
-    scanf("%lld",&a);
+    unsigned long long a;
+    scanf("%llu",&a);
     if(a%2==0){
         printf("Not Set");
     }
