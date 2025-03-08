@@ -12,7 +12,7 @@ int main() {
             printf("%d ",k);
             k++;
         }
-        for(int j=1;j<=rows-1;j++){
+        for(int j=1;j<=rows;j++){
             printf("%d",x);
             x--;
         }
