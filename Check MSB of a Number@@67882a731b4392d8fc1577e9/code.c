@@ -6,7 +6,7 @@ int main(){
         r=n%2;
         n=n/2;
     }
-    if(r){
+    if(r==0){
         printf("Not Set");
     }
     else{
