@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int x,n,ans=0,power=1;
-    scanf("%d %d",&a,&b);
+    scanf("%d %d",&x,&n);
     for(int i=0;i<=31;i++){
         r=x%2;
         x=x/2;
