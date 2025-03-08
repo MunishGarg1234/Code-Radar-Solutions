@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int x,r;
-    scanf("%d",&x);
+    long long int x;
+    int r;
+    scanf("%lld",&x);
     while(x!=0){
         r=x%2;
         x=x/2;
