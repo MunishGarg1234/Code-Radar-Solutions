@@ -1,17 +1,16 @@
 #include<stdio.h>
 int main(){
-    int n,r;
+    int n,r=-1;
     scanf("%d %d",&n,&r);
     while(n!=0){
         r=n%2;
         n=n/2;
     }
-    r=r+5;
-    if(r==5){
-        printf("Not Set");
+    if(r==1){
+        printf("Set");
     }
     else{
-        printf("Set");
+        printf("Not Set");
     }
     return 0;
 }
