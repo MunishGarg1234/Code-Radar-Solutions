@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int x,n,r;
+    int x,n,r,ans=0,power=1;
     scanf("%d %d",&x,&n);
     for(int i=0;i<=31;i++){
         r=x%2;
@@ -8,7 +8,9 @@ int main(){
         if(i==n){
             r=0;
         }
-        printf("%d",r);
+        ans=ans+r*power;
+        power=power*2;
     }
+    printf("%d",ans);
     return 0;
 }
