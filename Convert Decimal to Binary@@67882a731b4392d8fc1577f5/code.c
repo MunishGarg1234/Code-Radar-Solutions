@@ -9,6 +9,9 @@ int main(){
         ch[i]=r;
         i++;
     }
+    if(x==0){
+        printf("0");
+    }
     for(int j=i-1;j>=0;j--){
         printf("%d",ch[j]);
     }
