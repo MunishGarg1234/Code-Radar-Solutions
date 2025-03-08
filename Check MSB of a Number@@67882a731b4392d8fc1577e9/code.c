@@ -7,11 +7,11 @@ int main(){
         n=n/2;
     }
     r=r+5;
-    if(r==6){
-        printf("Set");
+    if(r==5){
+        printf("Not Set");
     }
     else{
-        printf("Not Set");
+        printf("Set");
     }
     return 0;
 }
