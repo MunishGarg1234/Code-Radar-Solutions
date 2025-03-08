@@ -9,7 +9,7 @@ int main(){
     if(r==1){
         printf("Set");
     }
-    else{
+    if(r==0){
         printf("Not Set");
     }
     return 0;
