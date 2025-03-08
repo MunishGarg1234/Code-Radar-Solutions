@@ -2,11 +2,11 @@
 int main(){
     long long int a;
     scanf("%lld",&a);
-    if(a%2!=0){
-        printf("Set");
+    if(a%2==0){
+        printf("Not Set");
     }
     else{
-        printf("Not Set");
+        printf("Set");
     }
     return 0;
 }
