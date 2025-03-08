@@ -6,10 +6,11 @@ int main(){
         r=n%2;
         n=n/2;
     }
-    if(r==1){
+    r=r+5;
+    if(r==6){
         printf("Set");
     }
-    if(r==0){
+    else{
         printf("Not Set");
     }
     return 0;
