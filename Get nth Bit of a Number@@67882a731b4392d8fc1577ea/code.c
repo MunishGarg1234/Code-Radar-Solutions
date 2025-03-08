@@ -5,7 +5,7 @@ int main(){
     for(int i=1;i<=n;i++){
         r=x%2;
         x=x/2;
-        if(i==n+1){
+        if(i==n){
             printf("%d",r);
         }
     }
