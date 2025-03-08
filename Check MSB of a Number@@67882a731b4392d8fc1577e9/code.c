@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int n, msb = 0;
-    scanf("%d", &n);
-
-    while (n != 0) {
-        msb = n % 2;  // Store the last remainder
-        n = n / 2;     // Reduce n by dividing it by 2
+    int x,r;
+    scanf("%d",&x);
+    while(x!=0){
+        r=x%2;
+        x=x/2;
     }
-
-    if (msb == 1) {
-        printf("Set\n");  // MSB is 1
-    } else {
-        printf("Not Set\n");  // MSB is 0 (should never happen for positive numbers)
+    if(r==1){
+        printf("Set");
     }
-
+    if(r==0){
+        printf("Not Set");
+    }
     return 0;
 }
