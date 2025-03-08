@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main(){
-    long long int a;
-    scanf("%lld",&a);
-    if(a<0){
-        a=a*-1;
+    int n,r;
+    scanf("%d %d",&n,&r);
+    while(n!=0){
+        r=n%2;
+        n=n/2;
     }
-    if(a%2==1){
-        printf("Set");
+    if(r){
+        printf("Not Set");
     }
     else{
-        printf("Not Set");
+        printf("Set");
     }
     return 0;
 }
