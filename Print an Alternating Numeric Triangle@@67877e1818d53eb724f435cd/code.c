@@ -13,6 +13,12 @@ int main() {
                 k=1;
             }
         }
+        if(k==1){
+            k=0;
+        }
+        else{
+            k=1;
+        }
         printf("\n");
     }
     return 0;
