@@ -9,10 +9,11 @@ int main() {
         else{
             k=0;
         }
+        if(i==1){
+            k=1;
+        }
         for(int j=1;j<=i;j++){
-            if(i==1){
-                k=1;
-            }
+
             if(k==1){
                 printf("%d ",k);
                 k=0;
