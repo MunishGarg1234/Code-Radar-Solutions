@@ -7,6 +7,7 @@ int main(){
         x=x/2;
         if(i==n){
             printf("%d",r);
+            break;
         }
     }
     return 0;
