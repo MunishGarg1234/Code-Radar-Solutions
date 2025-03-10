@@ -2,14 +2,14 @@
 int main() {
     int n,k=1;
     scanf("%d",&n);
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<=n-1;i++){
         if(k==0){
             k=1;
         }
         else{
             k=0;
         }
-        for(int j=1;j<=i;j++){
+        for(int j=0;j<=i-1;j++){
             if(k==1){
                 printf("%d ",k);
                 k=0;
