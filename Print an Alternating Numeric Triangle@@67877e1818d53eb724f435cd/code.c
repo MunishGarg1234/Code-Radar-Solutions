@@ -13,7 +13,7 @@ int main() {
                 k=1;
             }
         }
-        printf("\n")
+        printf("\n");
     }
     return 0;
 }
