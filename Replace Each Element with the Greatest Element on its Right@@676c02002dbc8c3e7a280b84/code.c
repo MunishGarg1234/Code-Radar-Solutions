@@ -19,7 +19,7 @@ int main(){
         arr[i]=b;
     }
     for(int j=0;j<=n-1;j++){
-        printf("%d ",arr1[j]);
+        printf("%d ",arr[j]);
     }
     return 0;
 }
