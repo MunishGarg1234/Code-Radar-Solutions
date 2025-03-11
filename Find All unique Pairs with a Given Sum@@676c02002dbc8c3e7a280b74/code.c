@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    int n;
+    int n,x,y;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<=n-1;i++){
@@ -11,7 +11,10 @@ int main() {
     for(int i=0;i<=n-1;i++){
         for(int j=0;j<=n-1;j++){
             if(i!=j){
-                if(arr[i]+arr[j]==k){
+                
+                if(arr[i]+arr[j]==k && x!=arr[i] && y!=arr[j]){
+                    x=arr[i];
+                    y=arr[j];
                     printf("%d %d\n",arr[i],arr[j]);
                 }
             }
