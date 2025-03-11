@@ -17,6 +17,9 @@ int main(){
                 }
             }
         }
+        if(x==1){
+            break;
+        }
     }
     if(x==0){
         printf("-1");
