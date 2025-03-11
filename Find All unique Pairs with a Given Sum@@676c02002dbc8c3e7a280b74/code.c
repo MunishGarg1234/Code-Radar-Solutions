@@ -12,7 +12,7 @@ int main() {
         for(int j=0;j<=n-1;j++){
             if(i!=j){
                 
-                if(arr[i]+arr[j]==k && (arr[i]!=x && arr[j]!=y)){
+                if(arr[i]+arr[j]==k && (arr[i]!=x && arr[j]!=x)){
                     x=arr[i];
                     y=arr[j];
                     printf("%d %d\n",x,y);
