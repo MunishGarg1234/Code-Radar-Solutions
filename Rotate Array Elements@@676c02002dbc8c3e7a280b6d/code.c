@@ -9,11 +9,9 @@ int main(){
     }
     int k;
     scanf("%d",&k);
+    k=k%n;
     for(int i=0;i<=n-1;i++){
-        if(i+k>n-1){
-            arr[i]=arr[i+k-n-1];
-        }
-        arr[i]=arr[i+k];
+        arr[(i+k)%n]=arr[i];
     }
     for(int i=0;i<=n-1;i++){
         printf("%d\n",arr[i]);
