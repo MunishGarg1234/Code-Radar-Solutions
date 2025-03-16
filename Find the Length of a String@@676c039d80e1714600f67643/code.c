@@ -2,7 +2,7 @@
 int main(){
     char str[100];
     int count=0;
-    gets(str);
+    fgets(str,100,stdin);
     for(int i=0;str[i]!='\0';i++){
         count++;
     }
