@@ -6,9 +6,9 @@ int main(){
     fgets(ch1,100,stdin);
     ch[strcspn(ch,"\n")]='\0';
     ch1[strcspn(ch1,"\n")]='\0';
-    int a=strcspn(ch,"\0");
+    int a=strlen(ch);
     for(int j=0;ch1[j]!='\0';j++){
-        ch[a]=ch1[j];
+        ch[a+1]=ch1[j];
         a++;
     }
     puts(ch);
