@@ -13,6 +13,7 @@ int main(){
         if(ch[i]!=ch1[k]){
             l=1;
             printf("No");
+            break;
         }
         k++;
     }
