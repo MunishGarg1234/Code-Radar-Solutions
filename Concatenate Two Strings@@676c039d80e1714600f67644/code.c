@@ -11,6 +11,7 @@ int main(){
         ch[a]=ch1[j];
         a++;
     }
+    ch[a]='\0';
     puts(ch);
     return 0;
 }
