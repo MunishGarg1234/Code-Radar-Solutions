@@ -8,9 +8,6 @@ int main(){
         if(ch[i]='\n'){
             ch[i]='\0';
         }
-        if(ch1[i]='\n'){
-            ch1[i]='\0';
-        }
     }
     strcat(ch,ch1);
     puts(ch);
