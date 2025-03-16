@@ -8,11 +8,16 @@ int main(){
         ch1[j]=ch[i];
         j++;
     }
-    if(strcmp(ch1,ch)==0){
-        printf("Yes");
+    int k=0,l=0;
+    for(int i=0;i<=a-1;i++){
+        if(ch[i]!=ch1[k]){
+            l=1;
+            printf("No");
+        }
+        k++;
     }
-    else{
-        printf("No");
+    if(l==0){
+        printf("Yes");
     }
     return 0;
 }
