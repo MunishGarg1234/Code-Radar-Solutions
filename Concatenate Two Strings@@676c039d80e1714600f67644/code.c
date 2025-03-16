@@ -5,6 +5,8 @@ int main(){
     fgets(ch,100,stdin);
     fgets(ch1,100,stdin);
     ch[strcspn(ch,"\n")]="\0";
+    ch1[strcspn(ch1,"\n")]=="\0";
     strcat(ch,ch1);
+    puts(ch);
     return 0;
 }
