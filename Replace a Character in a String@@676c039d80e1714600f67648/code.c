@@ -6,8 +6,8 @@ int main(){
     scanf("%c",&ch1);
     scanf("%c",&ch2);
     for(int i=0;ch[i]!='\0';i++){
-        if(ch[i]=='l'){
-            ch[i]='z';
+        if(ch[i]==ch1){
+            ch[i]=ch2;
         }
     }
     puts(ch);
