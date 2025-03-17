@@ -9,6 +9,7 @@ int main(){
             j++;
         }
     }
+    ch[j]='\0';
     printf("%s",ch);
     return 0;
 }
