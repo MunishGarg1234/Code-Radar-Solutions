@@ -5,7 +5,7 @@ int main(){
     fgets(ch,100,stdin);
     int length;
     for(int i=0;ch[i]='\0';i++){
-        length=0;
+        length=5;
         for(int j=0;ch[j]!=' ';j++){
             printf("%c",ch[length-1]);
             length--;
