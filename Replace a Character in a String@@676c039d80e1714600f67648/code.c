@@ -10,6 +10,6 @@ int main(){
             ch[i]=ch2;
         }
     }
-    puts(ch);
+    printf("%s",ch);
     return 0;
 }
