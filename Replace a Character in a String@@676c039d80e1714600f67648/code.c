@@ -6,7 +6,7 @@ int main(){
     scanf("%c",&ch1);
     scanf("%c",&ch2);
     for(int i=0;ch[i]!='\0';i++){
-        if(ch[i]==ch1){
+        if(ch[i]=='l'){
             ch[i]=ch2;
         }
     }
