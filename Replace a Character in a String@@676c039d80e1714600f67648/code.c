@@ -10,8 +10,6 @@ int main(){
             ch[i]='z';
         }
     }
-    for(int i=0;ch[i]!='\0';i++){
-        printf("%c",ch[i]);
-    }
+    puts(ch);
     return 0;
 }
