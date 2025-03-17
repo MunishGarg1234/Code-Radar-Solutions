@@ -7,6 +7,6 @@ int main(){
             ch[i]='';
         }
     }
-    puts(ch);
+    printf("%s",ch);
     return 0;
 }
