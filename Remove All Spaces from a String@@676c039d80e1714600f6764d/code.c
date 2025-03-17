@@ -1,11 +1,11 @@
 #include<stdio.h>
-#include<string.h>
 int main(){
     char ch[100];
     fgets(ch,100,stdin);
-    for(int i=0;ch[i]='\0';i++){
-        if(ch[i]==' '){
-            ch[strcspn(ch," ")]='';
+    int j=0;
+    for(int i=0;ch[i]=='\0';i++){
+        if(ch[i]!=' '){
+            ch[j]=ch[i];
         }
     }
     printf("%s",ch);
