@@ -7,7 +7,7 @@ int main(){
     scanf("%c",&ch2);
     for(int i=0;ch[i]!='\0';i++){
         if(ch[i]=='l'){
-            ch[i]=ch2;
+            ch[i]='z';
         }
     }
     for(int i=0;ch[i]!='\0';i++){
