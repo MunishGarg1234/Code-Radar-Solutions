@@ -6,7 +6,7 @@ int main(){
         if(ch[i]>='a' && ch[i]<='z'){
             ch[i]=ch[i]-32;
         }
-        else if(ch>='A' && ch<='Z'){
+        else if(ch[i]>='A' && ch[i]<='Z'){
             ch[i]=ch[i]+32;
         }
     }
