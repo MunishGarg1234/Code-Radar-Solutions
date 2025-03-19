@@ -6,7 +6,7 @@ int main(){
     for(int i=0;ch[i]!='\0';i++){
         if(!isalpha(ch[i])){
             x=1;
-            printf("No")
+            printf("No");
         }
     }
     if(x==0){
