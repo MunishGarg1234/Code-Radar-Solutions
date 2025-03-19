@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char ch[100],ch1[100];
+    char ch[100];
     fgets(ch,100,stdin);
     char ch1;
     scanf(" %c",&ch1);
