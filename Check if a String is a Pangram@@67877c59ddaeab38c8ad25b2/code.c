@@ -13,8 +13,5 @@ int main(){
     if(x==0){
         printf("Yes");
     }
-    else{
-
-    }
     return 0;
 }
