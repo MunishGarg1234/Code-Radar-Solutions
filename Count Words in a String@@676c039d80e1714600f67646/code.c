@@ -1,13 +1,13 @@
-#include<stdio.h>
-int main(){
-    char ch[100];
-    fgets(ch,100,stdin);
-    int count=0;
-    for(int i=0;ch[i]!='\0';i++){
-        if(ch[i]==' '){
+#include <stdio.h>
+int main() {
+    char str[100];
+    int count = 0;
+    fgets(str,100, stdin);
+    for (int i = 0; str[i]; i++) {
+        if ((str[i] != ' ' && str[i] != '\n') && (str[i + 1] == ' ' || str[i + 1] == '\n' || str[i + 1] == '\0')) {
             count++;
         }
     }
-    printf("%d",count+1);
+    printf("Word count: %d", count);
     return 0;
 }
