@@ -1,17 +1,33 @@
-#include<stdio.h>
-int main(){
-    char ch[100];
-    int arr[300]={0};
-    fgets(ch,100,stdin);
-    char most;
-    int a=0;
-    for(int i=0;ch[i]!='\0';i++){
-        arr[(int)ch[i]]++;
-        if(arr[(int)ch[i]]>a){
-            a=arr[(int)ch[i]];
-            most=ch[i];
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_CHAR 256  // Total ASCII characters
+
+int main() {
+    char str[100], result;
+    int freq[MAX_CHAR] = {0}, maxFreq = 0;
+
+    // Input string
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+
+    // Count frequency of each character
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] != '\n') { // Ignore newline from fgets
+            freq[(int)str[i]]++;
         }
     }
-    printf("%c",most);
+
+    // Find the most frequent character (alphabetically first in case of tie)
+    for (int i = 0; i < MAX_CHAR; i++) {
+        if (freq[i] > maxFreq) {
+            maxFreq = freq[i];
+            result = (char)i;
+        }
+    }
+
+    // Output result
+    printf("Most frequent character: '%c' -> %d times\n", result, maxFreq);
+
     return 0;
 }
