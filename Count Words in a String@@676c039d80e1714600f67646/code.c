@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    char str[100];
+    char ch[100];
     int count = 0;
-    fgets(str,100, stdin);
-    for (int i = 0; str[i]!='\0'; i++) {
+    fgets(ch,100, stdin);
+    for (int i = 0; ch[i]!='\0'; i++) {
         if (ch[i]==' ' || ch[i+1]!=' ') {
             count++;
         }
