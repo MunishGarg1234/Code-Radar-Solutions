@@ -4,7 +4,7 @@ int main() {
     int count = 0;
     fgets(ch,100, stdin);
     for (int i = 0; ch[i]!='\0'; i++) {
-        if (ch[i]==' ' || ch[i+1]!=' ') {
+        if (ch[i]==' ') {
             count++;
         }
     }
