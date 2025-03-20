@@ -4,10 +4,10 @@ int main() {
     int count = 0;
     fgets(str,100, stdin);
     for (int i = 0; str[i]; i++) {
-        if ((str[i] != ' ' && str[i] != '\n') && (str[i + 1] == ' ' || str[i + 1] == '\n' || str[i + 1] == '\0')) {
+        if (ch[i]==' ' || ch[i+1]!=' ') {
             count++;
         }
     }
-    printf("Word count: %d", count);
+    printf("%d", count+1);
     return 0;
 }
