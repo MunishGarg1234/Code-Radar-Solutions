@@ -1,4 +1,8 @@
 #include <stdio.h>
+int fibonacciSeries(int n);
+int main() {
+    return 0;
+}
 int fibonacciSeries(int n){
     if(n==1){
          printf("%d",0);
@@ -9,7 +13,4 @@ int fibonacciSeries(int n){
     else{
         printf("%d",fibonacciSeries(n-1) + fibonacciSeries(n-2));
     }
-}
-int main() {
-    return 0;
 }
