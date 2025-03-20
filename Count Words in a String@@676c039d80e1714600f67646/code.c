@@ -3,8 +3,8 @@ int main() {
     char ch[100];
     int count = 0;
     fgets(ch,100, stdin);
-    for (int i = 0; ch[i]!='\0'; i++) {
-        if (ch[i]==' ' && ch[i+1]!=' ') {
+    for (int i = 1; ch[i]!='\0'; i++) {
+        if (ch[i]==' ' && ch[i-1]!=' ') {
             count++;
         }
     }
