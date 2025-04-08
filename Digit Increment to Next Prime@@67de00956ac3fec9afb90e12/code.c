@@ -17,7 +17,7 @@ int incrementToPrimeDigits(int n){
             r=7;
         }
         else if(r==7){
-            r=7;
+            r=2;
         }
         ans=ans+p*r;
         p=p*10;
