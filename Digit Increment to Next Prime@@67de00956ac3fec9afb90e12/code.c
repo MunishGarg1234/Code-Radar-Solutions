@@ -2,7 +2,7 @@
 int incrementToPrimeDigits(int n){
     int org,r,p=1,ans=0;
     org=n;
-    while(org!=0){
+    while(org>=0){
         r=org%10;
         if(r==1 || r==8 || r==9 || r==0){
             r=2;
