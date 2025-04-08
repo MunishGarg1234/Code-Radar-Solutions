@@ -1,13 +1,18 @@
 // Your code here...
 int digitRightShift(int n){
-    int org,r,ans=0;
-    org=n;
+    int r,ans=0,p=1,a,b=1;
+    a=n%10;
+    int i=0;
     while(n!=0){
-        r=org%10;
-        ans=ans*10+r;
-        org=org/10;
+        n=n/10;
+        r=n%10;
+        ans=ans+r*p;
+        p=p*10;
+        i++;
     }
-    if(n==ans){
-        return n;
+    for(int j=1;j<=i-1;j++){
+        b=b*10;
     }
+    ans=ans+b*a;
+    return ans;
 }
