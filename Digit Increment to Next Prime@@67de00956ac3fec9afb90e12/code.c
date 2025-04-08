@@ -1,5 +1,5 @@
 // Your code here...
-void incrementToPrimeDigits(int n){
+int incrementToPrimeDigits(int n){
     int org,r,p=1,ans=0;
     org=n;
     while(org!=0){
