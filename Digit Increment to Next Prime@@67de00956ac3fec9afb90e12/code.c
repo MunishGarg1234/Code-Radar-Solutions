@@ -23,5 +23,5 @@ int incrementToPrimeDigits(int n){
         p=p*10;
         org=org/10;
     }
-    return org;
+    return ans;
 }
