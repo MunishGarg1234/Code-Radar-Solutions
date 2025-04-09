@@ -9,7 +9,7 @@ int main(){
     }
     int a,b,x,y;
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n-1;j++){
+        for(int j=i+1;j<n;j++){
             a=arr[i]-arr[j];
             if(a<0){
                 a=a*-1;
