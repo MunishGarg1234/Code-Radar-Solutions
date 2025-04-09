@@ -16,8 +16,8 @@ int main(){
             }
             if(a<b){
                 b=a;
-                // x=arr[i];
-                // y=arr[j];
+                x=arr[i];
+                y=arr[j];
             }
         }
     }
