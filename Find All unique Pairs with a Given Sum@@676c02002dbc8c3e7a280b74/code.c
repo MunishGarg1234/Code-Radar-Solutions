@@ -10,10 +10,12 @@ int main() {
     scanf("%d",&k);
     for(int i=0;i<=n-1;i++){
         for(int j=i;j<=n-1;j++){   
-            if(arr[i]+arr[j]==k && arr[i]!=arr[j]){
+            if(i!=j){
+                if(arr[i]+arr[j]==k){
                 x=arr[i];
                 y=arr[j];
                 printf("%d %d\n",x,y);
+            
             }
         }
     }
