@@ -11,13 +11,13 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             a=arr[j]-arr[i];
-            // if(a<0){
-            //     a=-1*a;
-            // }
+            if(a<0){
+                a=-1*a;
+            }
             if(a<b){
                 b=a;
-                x=arr[i];
-                y=arr[j];
+                // x=arr[i];
+                // y=arr[j];
             }
         }
     }
