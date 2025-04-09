@@ -24,9 +24,9 @@ int main(){
     if(n==1){
         printf("-1");
     }
-    else if((x=6 && y==8) || (x==8 && y==6)){
-        printf("2 4");
-    }
+    // else if((x=6 && y==8) || (x==8 && y==6)){
+    //     printf("2 4");
+    // }
     else if(y>=x){
         printf("%d %d",x,y);
     }
