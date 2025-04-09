@@ -21,6 +21,12 @@ int main(){
             }
         }
     }
-    printf("%d %d",x,y);
+    if(y>=x){
+        printf("%d %d",x,y);
+    }
+    else if(y<x){
+        printf("%d %d",x,y);
+    }
+    
     return 0;
 }
