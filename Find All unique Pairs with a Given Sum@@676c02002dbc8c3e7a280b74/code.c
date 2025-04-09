@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main() {
+int main(){
     int n,x,y;
     scanf("%d",&n);
     int arr[n];
@@ -18,6 +18,7 @@ int main() {
             
             }
         }
+    }
     }
     return 0;
 }
