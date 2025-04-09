@@ -7,13 +7,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int a=0,b,x,y;
+    int a=0,b=100,x,y;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            a=arr[i]-arr[j];
-            if(a<0){
-                a=-1*a;
-            }
+            a=arr[j]-arr[i];
+            // if(a<0){
+            //     a=-1*a;
+            // }
             if(a<b){
                 b=a;
                 x=arr[i];
