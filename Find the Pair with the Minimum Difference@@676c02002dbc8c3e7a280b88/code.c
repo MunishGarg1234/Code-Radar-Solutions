@@ -8,19 +8,25 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int a=0,b=100,x=0,y=0;
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            a=arr[j]-arr[i];
-            if(a<0){
-                a=-1*a;
-            }
-            if(a<b){
-                b=a;
-                x=arr[i];
-                y=arr[j];
+    if(n==1){
+        printf("-1");
+    }
+    else{
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                a=arr[j]-arr[i];
+                if(a<0){
+                    a=-1*a;
+                }
+                if(a<b){
+                    b=a;
+                    x=arr[i];
+                    y=arr[j];
+                }
             }
         }
     }
+
     if(y>=x){
         printf("%d %d",x,y);
     }
