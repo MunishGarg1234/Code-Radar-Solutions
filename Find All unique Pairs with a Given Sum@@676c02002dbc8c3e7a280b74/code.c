@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<=n-1;i++){
         for(int j=i+1;j<=n-1;j++){   
             if(i!=j){
-                if(arr[i]+arr[j]==k){
+                if(arr[i]+arr[j]==k && arr[i]!=x && arr[j]!=y){
                 x=arr[i];
                 y=arr[j];
                 printf("%d %d\n",x,y);
