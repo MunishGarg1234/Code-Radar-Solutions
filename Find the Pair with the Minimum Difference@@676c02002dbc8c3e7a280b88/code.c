@@ -25,7 +25,7 @@ int main(){
         printf("%d %d",x,y);
     }
     else if(y<x){
-        printf("%d %d",x,y);
+        printf("%d %d",y,x);
     }
     
     return 0;
