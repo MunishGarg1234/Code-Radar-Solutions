@@ -21,6 +21,6 @@ int main(){
             }
         }
     }
-    printf("%d %d",x,y);
+    printf("%d",b);
     return 0;
 }
