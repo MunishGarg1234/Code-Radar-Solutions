@@ -1,0 +1,17 @@
+// Your code here...
+int countGlovePairs(int gloves[],int n){
+    int count[100]={0};
+    for(int i=0;i<n;i++){
+        count[gloves[i]]++;
+    }
+    int x=0,count1;
+    for(int i=0;i<99;i++){
+        if(count[i]==0){
+           x=1; 
+        }
+        if(count[i]%2==0){
+            count1++;
+        }
+    }
+    return count1;
+}
