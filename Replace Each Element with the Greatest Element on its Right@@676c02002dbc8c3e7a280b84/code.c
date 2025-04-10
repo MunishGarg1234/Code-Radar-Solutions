@@ -6,20 +6,19 @@ int main(){
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int b;
-    for(int i=0;i<=n-1;i++){
-        b=-1;
-        for(int j=0;j<=n-1;j++){
-            if(i!=j){
-            if(arr[j]>=b){
-                b=arr[j];
-            } 
+    int a;
+    for(int i=0;i<n;i++){
+        a=-100;
+        for(int j=i+1;j<n;j++){
+            if(arr[j]>a){
+                a=arr[j];
             }
         }
-        arr[i]=b;
+        arr[i]=a;
     }
-    for(int j=0;j<=n-1;j++){
-        printf("%d ",arr[j]);
+    arr[n-1]=-1;
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
     }
     return 0;
 }
