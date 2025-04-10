@@ -1,0 +1,9 @@
+// Your code here...
+int findPrankerReceiver(int n,int m,int s){
+    for(int i=m;i>=1;i--){
+        s=s+1;
+        if(i==1){
+            return s;
+        }
+    }
+}
