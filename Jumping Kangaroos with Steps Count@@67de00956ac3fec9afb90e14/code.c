@@ -8,7 +8,7 @@ int kangaroo(int x1,int v1,int x2,int v2){
             break;
         }
     }
-    if(a==1){
-        return -1;
-    }
+    // if(a==1){
+    //     return -1;
+    // }
 }
