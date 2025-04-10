@@ -4,7 +4,7 @@ int countGlovePairs(int gloves[],int n){
     for(int i=0;i<n;i++){
         count[gloves[i]]++;
     }
-    int x=0,count1;
+    int x=0,count1=0;
     for(int i=0;i<99;i++){
         if(count[i]==0){
            x=1; 
