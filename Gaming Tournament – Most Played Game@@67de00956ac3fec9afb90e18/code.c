@@ -1,11 +1,11 @@
 // Your code here...
 int mostPlayedGame(int games[],int n){
-    int arr1[10]={0};
+    int arr1[100]={0};
     for(int i=0;i<n;i++){
         arr1[games[i]]++;
     }
     int a=-100,x=-100;
-    for(int i=0;i<10;i++){
+    for(int i=0;i<100;i++){
         if(arr1[i]>a){
             a=arr1[i];
             x=i;
